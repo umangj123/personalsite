@@ -1,0 +1,28 @@
+.blog-page {
+    padding: 2rem;
+    text-align: center;
+}
+
+.blog-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.blog-page a {
+    color: #00bfa5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-page a:hover {
+    text-decoration: underline;
+}
+
+#substack-feed-embed {
+    margin-top: 2rem;
+}

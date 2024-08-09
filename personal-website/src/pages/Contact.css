@@ -1,0 +1,24 @@
+.contact-page {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00bfa5;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-btn:hover {
+    background-color: #008f7a;
+}
