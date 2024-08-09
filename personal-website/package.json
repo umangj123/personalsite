@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.3.24",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
@@ -42,5 +43,4 @@
     ]
   },
   "homepage": "https://umangj123.github.io/"
-
 }
