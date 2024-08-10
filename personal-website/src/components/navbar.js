@@ -16,12 +16,12 @@ const Navbar = () => {
                 <h2>Umang Jain</h2>
             </div>
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={() => setIsMobile(false)}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/photography">Photography</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
-                <li><a href="/resume.pdf" target="_blank">Resume</a></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/">home</Link></li>
+                <li><Link to="/projects">projects</Link></li>
+                <li><Link to="/photography">photography</Link></li>
+                <li><Link to="/blog">blog</Link></li>
+                {/* <li><a href="/resume.pdf" target="/UmangJainResume.pdf">Resume</a></li> */}
+                <li><Link to="/contact">contact</Link></li>
             </ul>
             <button className="mobile-menu-icon" onClick={toggleMobileMenu}>
                 {isMobile ? <FaTimes /> : <FaBars />}
