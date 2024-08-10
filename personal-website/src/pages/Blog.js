@@ -22,7 +22,7 @@ const Blog = () => {
 
     return (
         <div className="blog-page">
-            <h1>My Blog</h1>
+            <h1>My Blog 🗞️</h1>
             <p>
                 Check out the full blog at my Substack:{" "}
                 <a href="https://thecornucopia.substack.com" target="_blank" rel="noopener noreferrer">
