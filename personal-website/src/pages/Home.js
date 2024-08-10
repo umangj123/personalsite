@@ -34,7 +34,7 @@ const Home = () => {
                         {roles[index]}
                     </motion.span>
                 </motion.h1>
-                <a href="/UmangJainResume.pdf" target="/UmangJainResume.pdf" className='button'>resume 📄</a>
+                <a href="/UmangJainResume.pdf" target="_blank" className='button'>resume 📄</a>
     
                 <a href="#about-section" className="button scroll-down">more about me 👇🏽</a>
             </div>
@@ -43,14 +43,14 @@ const Home = () => {
             <section id="about-section" className="about-section">
                 <h2 className="about-header">About Me 🙋🏽‍♂️</h2>
                 <div className="about-content">
-                    <img src="/umangjain.JPG" alt="Umang Jain" className="about-image" />
+                    <img src="/umangjain.jpg" alt="Umang Jain" className="about-image" />
                     <div className="about-text">
                         <p>
                             I'm Umang Jain, a senior at the University of Maryland, College Park! I am currently searching for fulltime roles as an
                             associate product manager or software engineer.
                         </p>
                         <p>
-                        I'm a multifaceted individual with a passion for technology, creativity, and solving complex problems.My journey as a Software Engineer has been driven by a deep curiosity to understand and create, while photography allows me to capture the beauty of the world around me. As an innovator, I thrive on bringing new ideas to life, and my love for puzzles fuels my problem-solving skills.
+                        I'm a multifaceted individual with a passion for technology, creativity, and solving complex problems. My journey as a Software Engineer has been driven by a deep curiosity to understand and create, while photography allows me to capture the beauty of the world around me. As an innovator, I thrive on bringing new ideas to life, and my love for puzzles fuels my problem-solving skills.
                         </p>
                     </div>
                 </div>
