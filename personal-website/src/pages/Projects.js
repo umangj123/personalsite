@@ -4,19 +4,19 @@ import './projects.css';
 const projects = [
     {
         "id": "project1",
-        "image": "personalsite/logo.png",
+        "image": "/personalsite/logo.png",
         "github": "https://github.com/user/project1",
         "youtube": "https://youtube.com/demo1"
     },
     {
         "id": "project2",
-        "image": "/terpiez.png",
+        "image": "/personalsite/terpiez.png",
         "github": "https://github.com/umangj123/FlutterApp/tree/main",
         "youtube": "https://youtube.com/demo2"
     },
     {
         "id": "project3",
-        "image": "/othello.jpeg",
+        "image": "/personalsite/othello.jpeg",
         "github": "https://github.com/umangj123/OthelloAI",
         "youtube": "https://youtube.com/demo2"
     },

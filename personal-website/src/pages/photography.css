@@ -1,0 +1,19 @@
+.photography {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Space between the photos */
+    justify-items: center; /* Center the images in the grid */
+    margin-top: 20px;
+}
+
+.gallery-photo {
+    width: 100%; /* Make each photo fill its grid cell */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

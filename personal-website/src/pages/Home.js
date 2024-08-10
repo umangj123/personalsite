@@ -47,12 +47,24 @@ const Home = () => {
                     <img src="/personalsite/umangjain.jpg" alt="Umang Jain" className="about-image" />
                     <div className="about-text">
                         <p>
-                            I'm Umang Jain, a senior at the University of Maryland, College Park! I am currently searching for fulltime roles as an
+                            i'm umang jain, a senior at the university of maryland, college park where i'm studying computer science! currently I am searching for fulltime new grad roles as an
                             associate product manager or software engineer.
                         </p>
                         <p>
-                        I'm a multifaceted individual with a passion for technology, creativity, and solving complex problems. My journey as a Software Engineer has been driven by a deep curiosity to understand and create, while photography allows me to capture the beauty of the world around me. As an innovator, I thrive on bringing new ideas to life, and my love for puzzles fuels my problem-solving skills.
+                             my journey and passion for technology has been driven by a deep curiosity to solve the worlds most pressing problems. Specifically, I thrive on bringing new ideas to life.
+                             from creating apps to help those with disabilities, a device to fight opioid addiction, attachments to escape house fires, services to reduce clothing waste or save money  - I've jumped at dozens of my ideas.
                         </p>
+                        <p> my hobbies:<br></br><br></br>
+                            photography 📸
+                            volleyball 🏐
+                            puzzles/boardgames 🧩
+                            travelling 🛩️ </p>
+
+                            <p>fun facts:</p>
+                            <ol>
+                                <li>I recently just sold 100 copies of my very own board game - the PartyBox!</li>
+                                <li>I've been to 26 airports!</li>
+                            </ol>
                     </div>
                 </div>
             </section>
