@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './Home.css';
 
 const Home = () => {
-    const roles = ["Software Engineer", "Photographer", "Innovator", "Puzzler"];
+    const roles = ["Student", "Software Engineer", "Photographer", "Innovator", "Puzzler"];
     const [index, setIndex] = React.useState(0);
 
     React.useEffect(() => {
@@ -26,6 +26,7 @@ const Home = () => {
                     Hi! 👋🏽 I'm Umang Jain - I'm a{" "}
                     <motion.span
                         key={roles[index]}
+                        className={'roles'}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
@@ -36,7 +37,7 @@ const Home = () => {
                 </motion.h1>
                 <a href="/personalsite/UmangJainResume.pdf" target="_blank" className='button'>resume 📄</a>
     
-                <a href="/personalsite#about-section" className="button scroll-down">more about me 👇🏽</a>
+                <a href="#about-section" className="button scroll-down">more about me 👇🏽</a>
             </div>
 
             {/* About Me Section */}
