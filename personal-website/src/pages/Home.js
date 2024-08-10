@@ -43,7 +43,7 @@ const Home = () => {
             <section id="about-section" className="about-section">
                 <h2 className="about-header">About Me 🙋🏽‍♂️</h2>
                 <div className="about-content">
-                    <img src="/umangjain.jpg" alt="Umang Jain" className="about-image" />
+                    <img src="/personalsite/umangjain.jpg" alt="Umang Jain" className="about-image" />
                     <div className="about-text">
                         <p>
                             I'm Umang Jain, a senior at the University of Maryland, College Park! I am currently searching for fulltime roles as an
