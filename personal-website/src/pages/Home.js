@@ -34,9 +34,9 @@ const Home = () => {
                         {roles[index]}
                     </motion.span>
                 </motion.h1>
-                <a href="/UmangJainResume.pdf" target="_blank" className='button'>resume 📄</a>
+                <a href="/personalsite/UmangJainResume.pdf" target="_blank" className='button'>resume 📄</a>
     
-                <a href="#about-section" className="button scroll-down">more about me 👇🏽</a>
+                <a href="/personalsite#about-section" className="button scroll-down">more about me 👇🏽</a>
             </div>
 
             {/* About Me Section */}
