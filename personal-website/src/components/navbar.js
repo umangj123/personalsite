@@ -20,7 +20,6 @@ const Navbar = () => {
                 <li><Link to="/projects">projects</Link></li>
                 <li><Link to="/photography">photography</Link></li>
                 <li><Link to="/blog">blog</Link></li>
-                {/* <li><a href="/resume.pdf" target="/UmangJainResume.pdf">Resume</a></li> */}
                 <li><Link to="/contact">contact</Link></li>
             </ul>
             <button className="mobile-menu-icon" onClick={toggleMobileMenu}>

@@ -59,6 +59,7 @@
 }
 
 /* About Me Section Styles */
+/* About Me Section Styles */
 .about-section {
     display: flex;
     flex-direction: column;
@@ -74,6 +75,8 @@
     margin-bottom: 20px;
     text-align: center; /* Center-aligns the header */
 }
+
+
 
 .about-content {
     display: flex;

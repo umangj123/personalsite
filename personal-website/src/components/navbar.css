@@ -6,6 +6,8 @@
     background-color: #333;
     padding: 1rem 2rem;
     color: white;
+    position: relative;
+    z-index: 1000; /* Ensure navbar is above other elements */
 }
 
 .logo h2 {
@@ -47,15 +49,16 @@
 .nav-links-mobile {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed; /* Fixed to the viewport */
     top: 0;
     right: 0;
     width: 100%;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
     background-color: #333;
     align-items: center;
     justify-content: center;
     list-style: none;
+    z-index: 1001; /* Ensure it is above other elements */
 }
 
 .nav-links-mobile li {
