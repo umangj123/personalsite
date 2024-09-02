@@ -58,7 +58,7 @@ const Home = () => {
                             photography 📸
                             volleyball 🏐
                             puzzles/boardgames 🧩
-                            travelling 🛩️  [Currently in Spain]</p>
+                            travelling 🛩️  [Currently in Spain 🇪🇸]</p>
 
                             <p><b>Fun Facts:</b></p>
                             <ol>

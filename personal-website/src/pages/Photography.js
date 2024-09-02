@@ -37,6 +37,10 @@ import 'react-medium-image-zoom/dist/styles.css';
 import './photography.css';
 
 const photos = [
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczNcljxstSLkpQpywZjg0AzMxflWwRE3iJi9YlKtL9FoVxg-tXOfPOPjF8N_k21zwMazdE70Hsu0UfDbNE8ovGDjQenzzYo4OlzLUEIf4o5n_qDIRxGmLBOzxOG4hd7-Cg06dmI9mkuwss28SsrrblUnLA=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczMvGdL1VbWVFrOr_NHkycqvHzVAVv_CJ0lTWm6prTWH818opbyNSVomIFwP3mQKV39GzvygvWA6yutc706u8TQFmcL0sQXmi21DfK77VrMQhisywkZitNjYECKwW_qh5xPbrb66TeRQTz4oJffTwULJrQ=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczPJJ6SHHCo0zkZZz-6PqhmYMKDz4OKPc0T6lME0Iv8a-3EtN8ysC5RDrBRcNkxBkDyL8YN_utlYRsDk4GQUzMbYq6wHpLFbflak4NpoJB-T1BwanKNg4nUssPuAQ91OUFoyNMMSdQLG1veevPgt0UyIGQ=w1144-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+
     { src: 'https://lh3.googleusercontent.com/pw/AP1GczNkZKqSLBlJAOLR0tTVA1vT_v9xOxz5X-WMfp7IgO82SBgtquv9qqkmLb_7Z0kde2YExU-qnFUIhAF3sTntaBGTIxxzRgi3wN2i68hBMd_3fkQR5QArGLtTwfhzLB4zjSI950u90AXIqFqPPA-OeWtAEw=w2300-h1535-s-no-gm?authuser=0', alt: 'Photo 1' },
     { src: 'https://lh3.googleusercontent.com/pw/AP1GczPMUtcsSSzdMYDOnbLEWTp2wZs8gyrMp9k0oBDwHT8KsQBtgB3eiWINod0UMFFbaAir8CFsYgGt-3sQp5smnJjy3Oq7g0TG0Z9KpXDoaVRXxLM_QLN8s2aRQGf_oJkc2Nbo1NQcIKj2jQWSz82u6VBr-w=w2300-h1535-s-no-gm?authuser=0', alt: 'Photo 1' },
     { src: 'https://lh3.googleusercontent.com/pw/AP1GczPUSKvrWe-54SUXRwqCyv3hAeE_-mHD-4llxWN5K6Zl37g_7c3d_SIchYI_ZtyDNWD2z0eRNNCMFiQgbpsaeuzYbqTij_U9WJhdtRCZACtWa-mORAJ7z0i3IAJUqfxmJOsBbqAlblTJJYK5qEPV4is_dw=w2570-h1716-s-no-gm?authuser=0', alt: 'Photo 2' },
@@ -67,9 +71,11 @@ const Photography = () => {
             <h1>Photography Portfolio 📸</h1>
             <div className="gallery">
                 {photos.map((photo, index) => (
-                    <Zoom key={index}>
-                        <img src={photo.src} alt={photo.alt} className="gallery-photo" />
-                    </Zoom>
+                    <div key={index} className="gallery-photo-container">
+                        <Zoom>
+                            <img src={photo.src} alt={photo.alt} className="gallery-photo" />
+                        </Zoom>
+                    </div>
                 ))}
             </div>
         </div>

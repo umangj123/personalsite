@@ -2,7 +2,6 @@
     padding: 20px;
     text-align: center;
 }
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
@@ -11,9 +10,21 @@
     margin-top: 20px;
 }
 
-.gallery-photo {
-    width: 100%; /* Make each photo fill its grid cell */
-    height: auto;
+.gallery-photo-container {
+    width: 100%; /* Make each container fill its grid cell */
+    padding-top: 75%; /* This sets a fixed aspect ratio (4:3) */
+    position: relative;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    transform: translate(-50%, -50%);
 }
