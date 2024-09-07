@@ -39,6 +39,13 @@ import './photography.css';
 const photos = [
     { src: 'https://lh3.googleusercontent.com/pw/AP1GczNcljxstSLkpQpywZjg0AzMxflWwRE3iJi9YlKtL9FoVxg-tXOfPOPjF8N_k21zwMazdE70Hsu0UfDbNE8ovGDjQenzzYo4OlzLUEIf4o5n_qDIRxGmLBOzxOG4hd7-Cg06dmI9mkuwss28SsrrblUnLA=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
     { src: 'https://lh3.googleusercontent.com/pw/AP1GczMvGdL1VbWVFrOr_NHkycqvHzVAVv_CJ0lTWm6prTWH818opbyNSVomIFwP3mQKV39GzvygvWA6yutc706u8TQFmcL0sQXmi21DfK77VrMQhisywkZitNjYECKwW_qh5xPbrb66TeRQTz4oJffTwULJrQ=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+    
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczPjf9tYEjVhvXKuYxwOITs8lreWiQsMJ_obYZ2ouTI5JSncjwSyC34hlztMqP3BtZsM_kiA9KNBQV4ppmCQRq9HCj2sQY32OjsBgnvDr6WcGcY7TLNEPIMK7Bop8ORuupVhwdh0qKL7xeBQdgOkFdObRg=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczOMsy_tn6s7nul5IoRi_8sNOdaayazqcEjycQmdMUsT2bryPOotlZfSXX0UZB-CluDCSzsnPdakKO7ZrWhnejiIh5z6JCJBHbrBc-_zNCr_2ociNpT5kRMTU4R7ncFZRo1VZ_9uWaDkur7N8jRdCIdjxw=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczOO1FV_QInPkJ81K5xCTfAbHxvAuU6yJht70Q_Whmo94_uHmDm5R-cO5ytd7sr41ZlQFaLMyO9vXOtzAp9aATum3UKdMbN8bW0sWP3ZTT8RLMdR9Cow13yHjLyHxYslvbR3fmqBuHbzXlrWc-uJ2eaqCA=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczOfQNM_0H5gO24BsaSRo5ukEpx_IBtYyp5_tWnV30IUAMt39MlGNbLTsX8pdIb5tQMvXEihKDBbWvKxJz2UDwKlziDE29CVEL28pu4S9PW2mLJshBQBUfYvH6n7EksZVT6kJ8yAunqNKrWQdUXOw570hA=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+    { src: 'https://lh3.googleusercontent.com/pw/AP1GczM3k39qtzbpsCTr7P9SkjHOFJALyZ7JnbBdxJZIPVfsx7JiFtTv3e0KOo2haEbabUYeIyoTx9qvRCPnv4M1hSGeC4hJ3AihBqATu9dy_6tST-jB7xG6UM5xVSaMN4pm0YG7ocbyipzE5dSr_b-cgxsb8Q=w2574-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
+
     { src: 'https://lh3.googleusercontent.com/pw/AP1GczPJJ6SHHCo0zkZZz-6PqhmYMKDz4OKPc0T6lME0Iv8a-3EtN8ysC5RDrBRcNkxBkDyL8YN_utlYRsDk4GQUzMbYq6wHpLFbflak4NpoJB-T1BwanKNg4nUssPuAQ91OUFoyNMMSdQLG1veevPgt0UyIGQ=w1144-h1716-s-no-gm?authuser=0', alt: 'Photo 1' },
 
     { src: 'https://lh3.googleusercontent.com/pw/AP1GczNkZKqSLBlJAOLR0tTVA1vT_v9xOxz5X-WMfp7IgO82SBgtquv9qqkmLb_7Z0kde2YExU-qnFUIhAF3sTntaBGTIxxzRgi3wN2i68hBMd_3fkQR5QArGLtTwfhzLB4zjSI950u90AXIqFqPPA-OeWtAEw=w2300-h1535-s-no-gm?authuser=0', alt: 'Photo 1' },
