@@ -58,13 +58,13 @@ const Home = () => {
                             photography 📸
                             volleyball 🏐
                             puzzles/boardgames 🧩
-                            travelling 🛩️  [Currently in Spain 🇪🇸]</p>
+                            travelling 🛩️  [Currently studying abroad 🇪🇸]</p>
 
                             <p><b>Fun Facts:</b></p>
                             <ol>
                                 <li>I recently just sold 100 copies of my very own board game - the PartyBox!</li>
                                 <li>I've had a letter to the editor published in the Washinton Post</li>
-                                <li>I've been to 26 airports</li>
+                                <li>I've been to 37 airports</li>
                             </ol>
                     </div>
                 </div>
