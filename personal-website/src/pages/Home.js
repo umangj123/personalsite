@@ -35,7 +35,7 @@ const Home = () => {
                         {roles[index]}
                     </motion.span>
                 </motion.h1>
-                <a href="/personalsite/UmangJainResume.pdf" target="_blank" className='button'>resume 📄</a>
+                <a href="/personalsite/UmangJainResumeSWE.pdf" target="_blank" className='button'>resume 📄</a>
     
                 <a href="#about-section" className="button scroll-down">more about me 👇🏽</a>
             </div>
@@ -58,12 +58,13 @@ const Home = () => {
                             photography 📸
                             volleyball 🏐
                             puzzles/boardgames 🧩
-                            travelling 🛩️  [Currently studying abroad 🇪🇸]</p>
+                            travelling 🛩️ </p>
 
                             <p><b>Fun Facts:</b></p>
                             <ol>
                                 <li>I recently just sold 100 copies of my very own board game - the PartyBox!</li>
                                 <li>I've had a letter to the editor published in the Washinton Post</li>
+                                <li>I studied abroad in Madrid, Spain</li>
                                 <li>I've been to 37 airports</li>
                             </ol>
                     </div>
